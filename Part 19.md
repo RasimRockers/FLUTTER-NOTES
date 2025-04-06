@@ -6,7 +6,7 @@ Perfect! Let’s level up with **Flutter Basics – Part 18: Custom Animations u
 
 ---
 
-### 💡 135. Why Custom Animations?
+### 💡 1. Why Custom Animations?
 
 Use **custom (explicit) animations** when:
 - You need full control (e.g., loop, pause, reverse)
@@ -15,7 +15,7 @@ Use **custom (explicit) animations** when:
 
 ---
 
-## 🔧 136. Core Concepts
+## 🔧 2. Core Concepts
 
 | Term               | Description                                        |
 |--------------------|----------------------------------------------------|
@@ -27,7 +27,7 @@ Use **custom (explicit) animations** when:
 
 ---
 
-## 🔁 137. Basic Setup
+## 🔁 3. Basic Setup
 
 ```dart
 class MyAnimationPage extends StatefulWidget {
@@ -81,7 +81,7 @@ class _MyAnimationPageState extends State<MyAnimationPage> with SingleTickerProv
 
 ---
 
-## 🔄 138. Add Controls: Repeat, Reverse, Status
+## 🔄 4. Add Controls: Repeat, Reverse, Status
 
 ```dart
 _controller.repeat();          // Infinite loop
@@ -96,7 +96,7 @@ _controller.addStatusListener((status) {
 
 ---
 
-## ✨ 139. Combine Multiple Tweens
+## ✨ 5. Combine Multiple Tweens
 
 ```dart
 final opacity = Tween<double>(begin: 0, end: 1).animate(_controller);
@@ -107,7 +107,7 @@ Then use both in the builder.
 
 ---
 
-## 🌈 140. Animate with Curves
+## 🌈6. Animate with Curves
 
 ```dart
 _animation = CurvedAnimation(
