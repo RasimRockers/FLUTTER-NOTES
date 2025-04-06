@@ -2,7 +2,7 @@
 
 ---
 
-## 📘 Flutter Basic Tutorial Notes
+## 📘 Flutter Basics 
 
 ### 📌 What is Flutter?
 - Flutter is an **open-source UI toolkit** by Google.
