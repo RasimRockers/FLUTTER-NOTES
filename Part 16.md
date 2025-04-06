@@ -1,13 +1,8 @@
-Boom 💣 You're on fire!  
-Welcome to **Flutter Basics – Part 15: Upload & Download Files using Firebase Storage** — this is how apps handle **photos, documents, and user uploads.**
-
----
-
 ## ☁️ Flutter Basics – Part 15: File Upload + Download (Firebase Storage)
 
 ---
 
-### 💡 113. Why Firebase Storage?
+### 💡 1. Why Firebase Storage?
 
 Use Firebase Storage when:
 - You want to store images, PDFs, or videos
@@ -17,7 +12,7 @@ Use Firebase Storage when:
 
 ---
 
-## 🔧 114. Setup Firebase Storage
+## 🔧 2. Setup Firebase Storage
 
 ### ✅ Step 1: Add to `pubspec.yaml`
 
@@ -65,7 +60,7 @@ service firebase.storage {
 
 ---
 
-## 📤 115. Uploading Files to Firebase Storage
+## 📤 3. Uploading Files to Firebase Storage
 
 ```dart
 import 'dart:io';
@@ -96,7 +91,7 @@ Future<void> uploadImage() async {
 
 ---
 
-## 📥 116. Get Download URL
+## 📥 4. Get Download URL
 
 After uploading:
 
@@ -120,7 +115,7 @@ Image.network(downloadUrl)
 
 ---
 
-## 📄 118. Upload PDFs or Any Files
+## 📄 5. Upload PDFs or Any Files
 
 ```dart
 final result = await FilePicker.platform.pickFiles(
@@ -139,7 +134,7 @@ if (result != null) {
 
 ---
 
-## 📥 119. Download Files
+## 📥6. Download Files
 
 ```dart
 final ref = FirebaseStorage.instance.ref('images/example.jpg');
@@ -150,7 +145,7 @@ Or use `getDownloadURL()` and download manually with `http` package if needed.
 
 ---
 
-## 🧪 120. Tips & Best Practices
+## 🧪 7. Tips & Best Practices
 
 - ✅ Always compress images before upload (`image` package)
 - ✅ Use folder paths like `users/userId/images/...`
