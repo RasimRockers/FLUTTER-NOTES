@@ -1,12 +1,8 @@
-Alright! Let’s dig deeper into **Flutter Basics – Part 17: Animations & Transitions** — where your UI gets that *wow factor* 💫
-
----
-
 ## 🌀 Flutter Basics – Part 17: Animations & Hero Transitions
 
 ---
 
-### 💡 130. Why Use Animations in Flutter?
+### 💡 1. Why Use Animations in Flutter?
 
 Animations:
 - Make UI feel smooth and modern
@@ -17,7 +13,7 @@ Flutter provides **powerful animation APIs** that are easy to use!
 
 ---
 
-## ✨ 131. Implicit Animations (Super Easy!)
+## ✨ 2. Implicit Animations (Super Easy!)
 
 Just change a value and Flutter animates it.
 
@@ -46,7 +42,7 @@ onTap: () {
 
 ---
 
-### 🔄 132. More Implicit Widgets
+### 🔄 3. More Implicit Widgets
 
 | Widget                 | What it animates              |
 |------------------------|-------------------------------|
@@ -85,7 +81,7 @@ Hero(
 
 ---
 
-## 🧠 134. Best Practices
+## 🧠 4. Best Practices
 
 - Use **unique Hero `tag`** for each transition
 - Wrap `GestureDetector` or `InkWell` around Hero if needed
