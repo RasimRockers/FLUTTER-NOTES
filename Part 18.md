@@ -1,7 +1,3 @@
-Perfect! Let’s level up with **Flutter Basics – Part 18: Custom Animations using AnimationController & Tween** — where *you control every frame* 🎮
-
----
-
 ## 🎯 Flutter Basics – Part 18: Custom Animation (Explicit Animations)
 
 ---
